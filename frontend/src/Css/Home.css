@@ -1,0 +1,14 @@
+.hr2{
+width: 877px;
+border: 1px solid #000000;
+border-top: 1px solid hsla(200, 10%,50%,100);
+border-radius: 0px;
+}
+.hr3{
+    position: absolute;
+    left: 650px;
+    width: 710.5px;
+    border: 1px solid white;
+    border-top: 1px solid hsla(200, 10%,50%,100);
+    border-radius: 0px;
+    }
