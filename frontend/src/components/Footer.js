@@ -4,15 +4,12 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import insta from "../../src/img/instagram.svg"
 import wpp from "../../src/img/wpp.svg"
 import ponto from "../../src/img/ponto.svg"
-import '../../src/Css/Navbar.css'
+import '../../src/css/Navbar.css'
 const styles = {
     box:{
         backgroundColor:'#29536B',
         height:'286px',
         marginTop:105
-    },
-    logo:{
-        paddingLeft:122
     },
     grid:{
         paddingTop:113
