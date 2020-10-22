@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Typography, Paper} from '@material-ui/core/';
 import logo from "../../src/img/embs1.png"
 import usuario from "../../src/img/usuario.svg"
-import '../../src/Css/Navbar.css'
+import '../../src/css/Navbar.css'
 const styles = {
     paper:{
         backgroundColor:'#1F7A74',

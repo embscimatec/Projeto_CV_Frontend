@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "../../src/components/Navbar"
 import Footer from "../../src/components/Footer"
 import {Box,  Grid} from '@material-ui/core/';
-import '../../src/Css/Home.css'
+import '../../src/css/Home.css'
 const styles={
     box1:{
         marginTop:106,
