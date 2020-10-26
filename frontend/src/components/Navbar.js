@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Paper} from '@material-ui/core/';
 import logo from "../../src/img/embs1.png"
+import line from "../../src/img/Line.svg"
 import usuario from "../../src/img/usuario.svg"
 import '../../src/css/Navbar.css'
 const styles = {
@@ -15,10 +16,11 @@ const styles = {
         paddingTop:15
     },
     hr:{
-        paddingLeft:40
+
     },
     texto:{
         fontSize:30,
+        color:'black',
     }
 }
 function Navbar  (){
@@ -30,16 +32,18 @@ return(
             <img src={logo}/>
        </Grid>
        <Grid  container direction='row' justify='flex-end' alignItems="center" item xs={6}>         
-            <Grid style={styles.hr} item xs={1}>
-                <hr color='#000000' className='hr'/>
+            <Grid  container justify='flex-end' item xs={2}>
+               <img src={line}/>
+                <a href='/login'>
+                <img style={{ paddingLeft:20,paddingRight:10, marginTop:10}} src={usuario}/>
+                </a>
             </Grid>
-            <Grid container justify='center' item xs={1}>
-                <img src={usuario}/>
-            </Grid>
-            <Grid  item xs={2}>
+            <Grid style={{marginRight:100, marginTop: 2}} item xs={1}>
+                <a href='/login' style={{textDecoration:'none'}}>
                 <Typography style={styles.texto}>
                     Login
                 </Typography>
+                </a>
             </Grid>
        </Grid>
    </Grid>
