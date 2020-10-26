@@ -1,3 +1,11 @@
 .backgroundLogin{
     background: #6CA5C2;
 }
+.box{
+    border: 1px solid #000000; 
+}
+.paper{
+    background-image: url("../../src/img/moldura.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
