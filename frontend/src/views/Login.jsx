@@ -2,7 +2,7 @@ import React from 'react';
 import {Paper,  Grid, Container, Box, Typography} from '@material-ui/core/';
 import logo from "../../src/img/embs3.svg"
 import camera from "../../src/img/camera.svg"
-import LoginComponent from "../../src/components/Login"
+import LoginComponent from "../components/Login"
 import '../../src/css/Login.css'
 function Login  (){
     const paperStyle = {

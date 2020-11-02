@@ -1,5 +1,9 @@
 .boxCad {
   background-image: url("../../src/img/moldura2.png");
   background-position: center;
-
   }
+  .boxCad2 {
+    background-image: url("../../src/img/moldura3.png");
+    background-position: center;
+
+    }
