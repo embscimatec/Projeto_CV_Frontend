@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Home from './../src/views/Home';
-import Login from './../src/views/Login';
-import CadastroPaciente from '../src/views/CadastroPaciente'
+import Home from './../src/views/Home.jsx';
+import Login from './../src/views/Login.jsx';
+import CadastroPaciente from '../src/views/CadastroPaciente.jsx'
 import { BrowserRouter,Switch, Route } from 'react-router-dom'
 
 function routes(){
