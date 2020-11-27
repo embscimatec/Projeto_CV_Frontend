@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Grid, Typography, Menu, MenuItem} from '@material-ui/core/';
 import line from "../../src/img/Line.svg"
@@ -41,11 +42,11 @@ function Header(){
     return(
         <>
         <Grid  style={styles.gridPai}container direction='row' justify='flex-end' alignItems="center" >         
-            <Grid  container justify='flex-end' item xl={2}>
-               <img src={line}/>
-               <img style={styles.usuario} src={usuario}/>
+            <Grid  container justify='flex-end' item lg={2} xl={2}>
+               <img alt='line' src={line}/>
+               <img alt='usuario' style={styles.usuario} src={usuario}/>
             </Grid>
-            <Grid style={styles.grid} container item xl={1}>
+            <Grid style={styles.grid} container item lg={2} xl={1}>
                 <Typography style={styles.texto}>
                     Fulano
                 </Typography>

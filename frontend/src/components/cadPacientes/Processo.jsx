@@ -83,8 +83,11 @@ function setColors(value) {
           </Grid>
         </Grid>
       );
+    default:
+      return('');
   }
 }
 export default function Processo(value) {
   return <>{setColors(value.valor)}</>;
 }
+

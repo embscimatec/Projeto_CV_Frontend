@@ -43,7 +43,7 @@ export default function Emergencia() {
     return(
         <>
             <Grid style={{ paddingTop: 114 }} container justify="center">
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setNome(event.target.value);
@@ -53,7 +53,7 @@ export default function Emergencia() {
                         style={styles.textField1}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setEmail(event.target.value);
@@ -63,7 +63,7 @@ export default function Emergencia() {
                         style={styles.textField2}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setRelacao(event.target.value);
@@ -73,7 +73,7 @@ export default function Emergencia() {
                         style={styles.textField2}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setTelefone(event.target.value);
@@ -83,13 +83,13 @@ export default function Emergencia() {
                         style={styles.textField2}
                     />
                 </Grid>
-                <Grid style = {{marginTop:50}}item xl={12}>
+                <Grid style = {{marginTop:50}}item lg={12} xl={12}>
                 <Box className="box" direction="row" style={styles.box}>
                 <Grid container alignItems='center'>
-                  <Grid style={styles.grid1} item xl={1}>
-                    <img src={camera}/>
+                  <Grid style={styles.grid1} item lg={1} xl={1}>
+                    <img alt="camera" src={camera}/>
                   </Grid>
-                  <Grid style={styles.grid2} item xl={6}>
+                  <Grid style={styles.grid2} item lg={6} xl={6}>
                 <Typography  style={styles.typo} >
                   Inserir Foto
               </Typography>

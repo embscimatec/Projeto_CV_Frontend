@@ -29,13 +29,13 @@ return(
    <Paper elevation={10} style={styles.paper}>
    <Grid style={styles.grid} alignItems="center" justify="space-between" container>
        <Grid style={styles.logo} item xs={2}>         
-            <img src={logo}/>
+            <img alt="logo" src={logo}/>
        </Grid>
        <Grid  container direction='row' justify='flex-end' alignItems="center" item xs={6}>         
             <Grid  container justify='flex-end' item xs={2}>
-               <img src={line}/>
+               <img alt="line" src={line}/>
                 <a href='/login'>
-                <img style={{ paddingLeft:20,paddingRight:10, marginTop:10}} src={usuario}/>
+                <img alt="usuario" style={{ paddingLeft:20,paddingRight:10, marginTop:10}} src={usuario}/>
                 </a>
             </Grid>
             <Grid style={{marginRight:100, marginTop: 2}} item xs={1}>
