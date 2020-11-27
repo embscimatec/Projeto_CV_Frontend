@@ -90,3 +90,4 @@ function setColors(value) {
 export default function Processo(value) {
   return <>{setColors(value.valor)}</>;
 }
+
