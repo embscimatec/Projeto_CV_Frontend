@@ -38,21 +38,21 @@ function Login  (){
     return (
         <>
         <Grid container direction="column" style={styles.grid}>
-            <Grid item xl={12}>
+            <Grid item lg={12} xl={12}>
                 <TextField label="Email"  style={styles.email} variant="outlined"/>
             </Grid>
-            <Grid item xl={12}>
+            <Grid item lg={12} xl={12}>
                 <TextField type='password' label="Senha" style={styles.senha} variant="outlined"/>
             </Grid>
             <Grid container>
-                <Grid item  xl={6}>
+                <Grid item  lg={6} xl={6}>
                     <Paper elevation={3} style={styles.paper} >
                       <Typography  style={styles.entrar}>
                         Entrar
                       </Typography>
                     </Paper>
                 </Grid>
-                <Grid item  xl={6}>
+                <Grid item lg={6} xl={6}>
                     <Typography style={styles.esqueci}>
                         Esqueci minha senha
                     </Typography>

@@ -23,7 +23,7 @@ export default function Contato() {
     return(
         <>
             <Grid style={{ paddingTop: 114 }} container justify="center">
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setEmail(event.target.value);
@@ -33,7 +33,7 @@ export default function Contato() {
                         style={styles.textField1}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setEndereco(event.target.value);
@@ -43,7 +43,7 @@ export default function Contato() {
                         style={styles.textField2}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setReligiao(event.target.value);
@@ -53,7 +53,7 @@ export default function Contato() {
                         style={styles.textField2}
                     />
                 </Grid>
-                <Grid item xl={12}>
+                <Grid item lg={12} xl={12}>
                     <TextField
                         onChange={(event) => {
                             setTelefone(event.target.value.replace(/[^0-9]/gi,''));

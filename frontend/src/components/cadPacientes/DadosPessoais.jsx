@@ -17,7 +17,8 @@ for (let i = 1; i < 13; i++) {
   meses.push(i);
 }
 let anos = [];
-for (let i = 1900; i < 2022; i++) {
+var data = new Date();
+for (let i = 1900; i <= data.getFullYear(); i++) {
   anos.push(i);
 }
 const styles = {
@@ -87,7 +88,7 @@ export default function DadosPessoais() {
   return (
     <>
       <Grid style={{ paddingTop: 114 }} container justify="center">
-        <Grid item xl={12}>
+        <Grid item lg={12} xl={12}>
           <TextField
             onChange={(event) => {
               setNome(event.target.value);
@@ -97,7 +98,7 @@ export default function DadosPessoais() {
             variant="outlined"
           />
         </Grid>
-        <Grid item xl={12}>
+        <Grid item lg={12} xl={12}>
           <TextField
             onChange={(event) => {
               setCpf(event.target.value);
@@ -107,11 +108,11 @@ export default function DadosPessoais() {
             variant="outlined"
           />
         </Grid>
-        <Grid item xl={12}>
+        <Grid item lg={12} xl={12}>
           <Typography style={styles.data}>Data de Nascimento</Typography>
         </Grid>
         <Grid container>
-          <Grid style={styles.dia} item xl={1}>
+          <Grid style={styles.dia} item lg={1} xl={1}>
             <FormControl style={styles.diaForm} variant="outlined">
               <InputLabel>Dia</InputLabel>
               <Select value={dia} onChange={handleChangeDia} label="Dia">
@@ -124,7 +125,7 @@ export default function DadosPessoais() {
               </Select>
             </FormControl>
           </Grid>
-          <Grid style={styles.mes} item xl={1}>
+          <Grid style={styles.mes} item lg={1} xl={1}>
             <FormControl style={styles.mesForm} variant="outlined">
               <InputLabel>Mês</InputLabel>
               <Select value={mes} onChange={handleChangeMes} label="Mês">
@@ -137,7 +138,7 @@ export default function DadosPessoais() {
               </Select>
             </FormControl>
           </Grid>
-          <Grid style={styles.ano} item xl={1}>
+          <Grid style={styles.ano} item lg={1} xl={1}>
             <FormControl style={styles.anoForm} variant="outlined">
               <InputLabel>Ano</InputLabel>
               <Select value={ano} onChange={handleChangeAno} label="Ano">
@@ -151,7 +152,7 @@ export default function DadosPessoais() {
             </FormControl>
           </Grid>
         </Grid>
-        <Grid style={styles.genero} item xl={12}>
+        <Grid style={styles.genero} item lg={12} xl={12}>
           <FormControl
             style={styles.generoForm}
             label="Gênero"

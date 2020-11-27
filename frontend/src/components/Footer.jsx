@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Box, Container} from '@material-ui/core/';
+import { Grid, Typography, Box} from '@material-ui/core/';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import insta from "../../src/img/instagram.svg"
 import wpp from "../../src/img/wpp.svg"
@@ -38,10 +38,10 @@ return(
    <Box style={styles.box}>
         <Grid style={styles.grid} alignItems="center" justify="center"  container>
         <a href='https://www.instagram.com/ieeeembscimatec/'>
-        <img src={insta}/>
+        <img alt="insta" src={insta}/>
         </a>
-        <img style={styles.ponto} src={ponto}/>
-        <img src={wpp}/>
+        <img alt="ponto" style={styles.ponto} src={ponto}/>
+        <img alt="wpp" src={wpp}/>
         </Grid>
         <hr style={styles.hr} className="hr3"/>
         <Grid style={styles.grid2} alignItems="center" justify="center"  container>

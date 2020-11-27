@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './../src/views/Home.jsx';
 import Login from './../src/views/Login.jsx';
+import Perfil from './../src/views/Perfil.jsx';
 import CadastroPaciente from '../src/views/CadastroPaciente.jsx'
 import { BrowserRouter,Switch, Route } from 'react-router-dom'
 
@@ -10,6 +11,7 @@ return(
          <Switch>
             <Route path="/" exact={true} component={Home} />
             <Route path="/login" component={Login} />
+            <Route path="/perfil" component={Perfil} />
             <Route path="/cadastropaciente" component={CadastroPaciente} />
         </Switch>
     </BrowserRouter>

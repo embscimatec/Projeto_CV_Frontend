@@ -1,0 +1,14 @@
+.fundo{
+    background-image: url("../../src/img/moldura4.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 143px;
+}
+.tracejado{
+    border: 10px dotted #B99A6D;
+    border-style: none none dotted; 
+    color: black; 
+   
+}

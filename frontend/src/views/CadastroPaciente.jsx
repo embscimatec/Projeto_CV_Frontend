@@ -26,6 +26,8 @@ function getPageContent(page){
             <>
                 <Emergencia/> 
             </>)
+        default:
+            return('');
     }
 }
 function getBox(page){
@@ -55,6 +57,8 @@ function getBox(page){
                 <Processo valor={page}/>
                 </Box> 
             </>)
+        default:
+            return('')
     }
 }
 function nextPage(page, setPage){
@@ -72,6 +76,8 @@ function getTitulo(page){
             return "CONTATO DO PACIENTE"
         case 2:
             return "CONT. DE EMERGÊNCIA"
+        default:
+            return "CADASTRAR PACIENTE"
     }
 }
 function CadastroPaciente  (){
@@ -82,15 +88,15 @@ function CadastroPaciente  (){
         <>
         <Header/>
         <Grid  container direction="row" justify="flex-start">
-            <Grid style={{marginTop:53}} item xl={4}>
-                <hr style={{width:'700px',color:"#ffffff"}} />
+            <Grid style={{marginTop:53}} item lg={3} xl={3}>
+                <hr style={{width:'500px',color:"#ffffff"}} />
             </Grid>
-            <Grid style={{paddingLeft:70,marginTop:30}} item xl={4}>
+            <Grid style={{paddingLeft:70,marginTop:30, textAlign:'center'}} item lg={5} xl={5}>
                 <Typography style={{color:"#ffffff",fontSize:48}}>
                     {getTitulo(page)}
                 </Typography>
             </Grid>
-            <Grid style={{marginTop:53}} item xl={4}>
+            <Grid style={{marginTop:53}} item lg={3} xl={3}>
                 <hr style={{width:'700px',color:"#ffffff"}} />
             </Grid>
         </Grid>

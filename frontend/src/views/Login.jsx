@@ -5,12 +5,7 @@ import camera from "../../src/img/camera.svg"
 import LoginComponent from "../components/Login"
 import '../../src/css/Login.css'
 function Login  (){
-    const paperStyle = {
-      backgroundImage: "url(" + "../../src/img/moldura.svg" + ")",
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'
-    }
+
     const styles = {
       box: {
         borderRadius:'21px 21px 0px 0px', 
@@ -45,10 +40,10 @@ function Login  (){
         <Container justify='center'>
             <Box className="box" direction="row" style={styles.box}>
               <Grid container alignItems='center'>
-                  <Grid style={styles.grid1} item xl={1}>
-                    <img src={camera}/>
+                  <Grid style={styles.grid1} item lg={1} xl={1}>
+                    <img alt="camera"src={camera}/>
                   </Grid>
-                  <Grid style={styles.grid2} item xl={6}>
+                  <Grid style={styles.grid2} item lg={6} xl={6}>
                 <Typography  style={styles.typo} >
                   Entrar com foto
               </Typography>
@@ -56,7 +51,7 @@ function Login  (){
               </Grid>
             </Box>
             <Paper className="paper" style={styles.paper}>
-                <img style={styles.img } src={logo}/>
+                <img alt="logo" style={styles.img } src={logo}/>
                 <LoginComponent/>
             </Paper>    
         </Container>
