@@ -11,7 +11,7 @@ import CompSuperior from "../components/perfil/CompSuperior";
 import InferiorEsquerdo from "../components/perfil/InferiorEsquerdo";
 import InferiorDireito from "../components/perfil/InferiorDireito";
 
-import "../css/Perfil.css";
+import "../Css/Perfil.css";
 const useStyles = makeStyles((theme) => ({
   retrato: {
     width: theme.spacing(25),
