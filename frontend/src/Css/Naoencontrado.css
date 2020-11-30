@@ -1,0 +1,19 @@
+.naoEncontrado {
+    background-image: url("../../src/img/naoencontrado.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.semrosto {
+    position: absolute;
+    width: 864px;
+    height: 75px;
+    left: 288px;
+    top: 301px;
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 84px;
+    color: #403939;
+}

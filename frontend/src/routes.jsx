@@ -5,6 +5,7 @@ import Perfil from './views/Perfil.jsx';
 import CadastroPaciente from './views/CadastroPaciente.jsx'
 import Opcoes from './views/Opcoes.jsx'
 import Anamnese from './views/Anamnese.jsx'
+import Naoencontrado from './views/Naoencontrado.jsx'
 import { BrowserRouter,Switch, Route } from 'react-router-dom'
 
 function routes(){
@@ -17,6 +18,7 @@ return(
             <Route path="/perfil" component={Perfil} />
             <Route path="/anamnese" component={Anamnese} />
             <Route path="/cadastropaciente" component={CadastroPaciente} />
+            <Route path="/naoencontrado" component={Naoencontrado} />
         </Switch>
     </BrowserRouter>
 )
