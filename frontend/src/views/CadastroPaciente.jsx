@@ -7,7 +7,7 @@ import Emergencia from "../components/cadPacientes/Emergencia"
 
 
 import {Grid, Box, Typography, Paper} from '@material-ui/core/';
-import '../Css/CadastroPaciente.css'
+import '../css/CadastroPaciente.css'
 function getPageContent(page){
     switch (page) {
         case 0:

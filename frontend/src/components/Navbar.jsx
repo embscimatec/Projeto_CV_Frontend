@@ -3,7 +3,7 @@ import { Grid, Typography, Paper} from '@material-ui/core/';
 import logo from "../../src/img/embs1.png"
 import line from "../../src/img/Line.svg"
 import usuario from "../../src/img/usuario.svg"
-import '../Css/Navbar.css'
+import '../css/Navbar.css'
 const styles = {
     paper:{
         backgroundColor:'#1F7A74',

@@ -3,7 +3,7 @@ import {Paper,  Grid, Container, Box, Typography} from '@material-ui/core/';
 import logo from "../../src/img/embs3.svg"
 import camera from "../../src/img/camera.svg"
 import LoginComponent from "../components/Login"
-import '../Css/Login.css'
+import '../css/Login.css'
 function Login  (){
 
     const styles = {
