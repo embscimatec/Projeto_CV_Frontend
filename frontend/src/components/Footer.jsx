@@ -4,7 +4,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import insta from "../../src/img/instagram.svg"
 import wpp from "../../src/img/wpp.svg"
 import ponto from "../../src/img/ponto.svg"
-import '../../src/css/Navbar.css'
+import '../Css/Navbar.css'
 const styles = {
     box:{
         backgroundColor:'#29536B',
